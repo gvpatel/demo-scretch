@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Calculator with apex class" icon-name="custom:custom63">
+ 
+       <p class="slds-p-horizontal_small">
+         <lightning-input label="First Number" name="fNumber" type="number" value={fNumber} onchange={handledChange}></lightning-input>
+         <lightning-input label="Second Number" name="sNumber" type="number" value={sNumber} onchange={handledChange}></lightning-input>
+         <lightning-input label="Result" type="number" value={resultsum}> </lightning-input> 
+ 
+         <lightning-button label="Submit" onclick={handleClick}></lightning-button> 
+        </p> 
+
+        <p slot="footer">{resultsum} </p>
+          
+            
+     </lightning-card> 
+ </template>

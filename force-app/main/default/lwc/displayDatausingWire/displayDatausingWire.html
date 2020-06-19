@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Data Display using Wire">
+         <template for:each={data} for:item="account">
+             <p key={account.id}>{account.name}</p>           
+             <p key={account.id}>{account.type}</p> 
+             <p key={account.id}>{account.industry}</p> 
+         </template>
+    </lightning-card>    
+</template>

@@ -1,0 +1,13 @@
+<template>
+    <lightning-card>  
+        <div slot="footer">
+                <!--lightning-badge label={result}></!--lightning-badge-->   
+                <c-test-result result={result}></c-test-result>                           
+                  
+        </div>
+        <p class="slds-p-horizontal_small">
+           <lightning-input value={firstnumber} name="fnumber" label="FirstNumber"  onchange={addnumbers}></lightning-input>
+           <lightning-input value={secondnumber} name="snumber" label="SecondNumber" onchange={addnumbers}></lightning-input>
+        </p>
+    </lightning-card>
+</template>

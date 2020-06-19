@@ -1,0 +1,3 @@
+<aura:component implements="force:lightningQuickAction">
+    <c:accountCreation_Apex></c:accountCreation_Apex>
+</aura:component>
